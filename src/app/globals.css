@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+    --color-blue: #6F9DE2;
+    --color-purple: #9871F3;
+    --color-gradient: linear-gradient(90deg, #4B7FCD 0%, #8A61EA 100%);
+    
+    --color-feedback-danger: #E05D6C;
+    
+    --color-gray-100: #DAE4F2;
+    --color-gray-200: #C8D0DA;
+    --color-gray-300: #95A1B1;
+    --color-gray-400: #6F7D90;
+    --color-gray-500: #2A313C;
+    --color-gray-600: #21252C;
+    --color-gray-700: #191D24;
+    --color-gray-800: #13161B;
+    --color-gray-900: #0F1216;
+
+    /* Tipografia */
+    --font-heading: var(--font-oxanium), sans-serif;
+    --font-sans: var(--font-montserrat), sans-serif;
+
+    /* Heading */
+    --text-heading-hg: 72px;
+    --line-height-heading-hg: 100%;
+    --font-weight-heading-hg: 500; /* Medium */
+
+    --text-heading-xl: 40px;
+    --line-height-heading-xl: 100%;
+    --font-weight-heading-xl: 600; /* SemiBold */
+
+    --text-heading-lg: 36px;
+    --line-height-heading-lg: 100%;
+    --font-weight-heading-lg: 600; /* SemiBold */
+
+    --text-heading-md: 24px;
+    --line-height-heading-md: 100%;
+    --font-weight-heading-md: 600; /* SemiBold */
+
+    --text-heading-sm: 20px;
+    --line-height-heading-sm: 100%;
+    --font-weight-heading-sm: 600; /* SemiBold */
+
+    /* Body */
+    --text-body-lg: 18px;
+    --line-height-body-lg: 160%;
+    --font-weight-body-lg: 400; /* Regular */
+
+    --text-body-md: 16px;
+    --line-height-body-md: 160%;
+    --font-weight-body-md: 400; /* Regular */
+
+    --text-body-sm: 14px;
+    --line-height-body-sm: 160%;
+    --font-weight-body-sm: 400; /* Regular */
+
+    --text-body-xs: 12px;
+    --line-height-body-xs: 160%;
+    --font-weight-body-xs: 600; /* SemiBold */
+
+    --text-button: 16px;
+    --line-height-button: 160%;
+    --font-weight-button: 600; /* SemiBold */
+
+    --radius-xl: 0.625rem;
+}
